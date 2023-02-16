@@ -10,7 +10,7 @@ hidden: false
 <meting-js
     server="netease"
     type="song"
-    autoplay="true"
+    autoplay="false"
     id="27876224">
 </meting-js>
 
@@ -194,6 +194,11 @@ https://hexo.fluid-dev.com/posts/hexo-injector/
 
 npm install hexo-wordcount --sav
 
+## bili
+
+npm install hexo-bilibili-bangumi --save
+
+好像和自带的 lazyload 有冲突 
 ## 热重启
 
 npm install -g browser-sync
@@ -205,3 +210,5 @@ npm install hexo-browsersync --save
 但是 npm 也出现了一堆提示
 
  Depends on vulnerable versions of ua-parser-js
+
+ # npm install hexo-tag-aplayer
