@@ -27,6 +27,16 @@ hexo.extend.injector.register(
     "default"
 );
 
+//live 2d 看板娘
+
+hexo.extend.injector.register(
+    "body_end",
+    `
+    <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    `,
+    "default"
+);
+
 // 播放器
 
 hexo.extend.injector.register(
@@ -37,9 +47,10 @@ hexo.extend.injector.register(
 	server="netease"
 	type="playlist"
 	id="690702378">
+    </meting-js>
     </div>
 
-</meting-js>
+
   `,
     "default"
 );
