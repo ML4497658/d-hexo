@@ -914,10 +914,6 @@ inject:
         # - <link rel="stylesheet" href="/xxx.css">
     bottom:
         # - <script src="xxxx"></script>
-        # 网页标题变化
-        # - <script type="text/javascript" src="/js/head.js"></script>
-        # 网页标题变化
-        # - <script type="text/javascript" src="../../source/js/dynamicTabTitle.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
