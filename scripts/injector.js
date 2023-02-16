@@ -1,13 +1,47 @@
-hexo.extend.injector.register(
-    'body_end',
-	'<script src="/js/dynamicTabTitle.js"></script>',
-	'<script src="/js/isItOutOfTime.js"></script>',
-	'default');
+// 动态标签页标题
 
-hexo.extend.injector.register('body_end', `
-  <div id="aplayer"></div>
-  <link defer rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
-  <script src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script>
-  <script defer src="/js/aplayer.js"></script>
-  `,'default');
+hexo.extend.injector.register(
+    "body_end",
+    '<script src="/js/dynamicTabTitle.js"></script>',
+    "default"
+);
+
+// 文章是否过时
+hexo.extend.injector.register(
+    "body_end",
+    '<script src="/js/isItOutOfTime.js"></script>',
+    "default"
+);
+
+// metingjs
+
+hexo.extend.injector.register(
+    "body_end",
+    `
+  <!-- require APlayer -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+  <!-- require MetingJS -->
+  <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+  `,
+    "default"
+);
+
+// 播放器
+
+hexo.extend.injector.register(
+    "body_end",
+    `
+    <div id="aplayer">    
+    <meting-js
+	server="netease"
+	type="playlist"
+	id="690702378">
+    </div>
+
+</meting-js>
+  `,
+    "default"
+);
+//   <div id="aplayer"></div>
+//   <script defer src="/js/aplayer.js"></script>
