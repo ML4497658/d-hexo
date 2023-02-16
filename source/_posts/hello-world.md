@@ -1,6 +1,18 @@
 ---
 title: 年轻人的第二个 Hexo 博客
+date: 2023-02-16 09:06:56
+tags: [Hexo, blog]
+top_img:
+cover:
+hidden: false
 ---
+
+<meting-js
+    server="netease"
+    type="song"
+    autoplay="true"
+    id="27876224">
+</meting-js>
 
 # 重新构建 Hexo 博客
 
