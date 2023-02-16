@@ -14,7 +14,8 @@ timezone: "Asia/Shanghai"
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.jenway.live
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink.html ## 此处可以自己设置
 permalink_defaults:
 pretty_urls:
     trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -132,6 +133,41 @@ bangumi: # 追番设置
     extra_options:
         key: value
 
-aplayer:
-    meting: true
-    asset_inject: false
+markdown:
+    render:
+        html: true # 在 markdown 文本中支持 html tag 标签
+        xhtmlOut: false # 需要 xtml 文档，使用 <br /> 替代 <br>
+        breaks: true # 用 <br> 开始新的一行
+        linkify: true # 自动将 可能是链接的内容转换成链接
+        typographer: true # 印刷标识转换
+    plugins:
+        - markdown-it-abbr
+        - markdown-it-footnote
+        - markdown-it-ins
+        - markdown-it-sub
+        - markdown-it-sup
+        - markdown-it-emoji
+        - markdown-it-task-lists
+    anchors:
+        level: 2
+        collisionSuffix: ""
+        permalink: false,
+        permalinkClass: "header-anchor"
+        permalinkSymbol: ""
+        case: 0
+        separator: ""
+
+## abbrlink config
+abbrlink:
+    alg: crc32 #support crc16(default) and crc32 进制
+    rep: hex #support dec(default) and hex  算法
+    drafts: false #(true)Process draft,(false)Do not process draft. false(default)
+    ## Generate categories from directory-tree
+    ## depth: the max_depth of directory-tree you want to generate, should > 0
+    auto_category:
+        enable: true #true(default)
+        depth: #3(default)
+        over_write: false
+    auto_title: false #enable auto title, it can auto fill the title by path
+    auto_date: false #enable auto date, it can auto fill the date by time today
+    force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.

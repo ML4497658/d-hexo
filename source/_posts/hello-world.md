@@ -1,10 +1,13 @@
 ---
 title: 年轻人的第二个 Hexo 博客
+tags:
+  - Hexo
+  - blog
+hidden: false
+abbrlink: dbe0b09e
 date: 2023-02-16 09:06:56
-tags: [Hexo, blog]
 top_img:
 cover:
-hidden: false
 ---
 
 <meting-js
@@ -154,7 +157,7 @@ themes/**/.git
 `git add`
 `git commit -m '迁徙到hexo6代'`
 
-仓库建起来了，✌
+仓库建起来了，✌:coffee:
 
 ## 修改 post 模板
 
@@ -211,4 +214,36 @@ npm install hexo-browsersync --save
 
  Depends on vulnerable versions of ua-parser-js
 
- # npm install hexo-tag-aplayer
+ # npm un hexo-renderer-marked -S
+
+ npm i hexo-renderer-markdown-it -S
+
+ npm i markdown-it-emoji markdown-it-task-lists -S
+
+ ```
+ markdown:
+  render:
+    html: true # 在 markdown 文本中支持 html tag 标签
+    xhtmlOut: false # 需要 xtml 文档，使用 <br /> 替代 <br>
+    breaks: true # 用 <br> 开始新的一行
+    linkify: true # 自动将 可能是链接的内容转换成链接
+    typographer: true # 印刷标识转换
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+    - markdown-it-emoji 
+    - markdown-it-task-lists
+  anchors:
+    level: 2
+    collisionSuffix: ''
+    permalink: false,
+    permalinkClass: 'header-anchor'
+    permalinkSymbol: ''
+    case: 0
+    separator: ''
+ ```
+
+ ## Hexo 博客生成永久链接
