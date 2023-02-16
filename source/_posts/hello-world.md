@@ -185,3 +185,23 @@ hidden: false
 Fluid 主题作者写的很好
 
 https://hexo.fluid-dev.com/posts/hexo-injector/
+
+## 搜索
+
+安装 algoglia
+
+## 字数统计
+
+npm install hexo-wordcount --sav
+
+## 热重启
+
+npm install -g browser-sync
+
+npm install hexo-browsersync --save
+
+安装好方便调试了
+
+但是 npm 也出现了一堆提示
+
+ Depends on vulnerable versions of ua-parser-js
