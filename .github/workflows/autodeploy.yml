@@ -53,7 +53,7 @@ jobs:
               run: |
                   hexo clean
                   hexo bangumi -u
-                  export HEXO_ALGOLIA_INDEXING_KEY = ${{ secrets.ALGOLIA_TOKEN }}
+                  HEXO_ALGOLIA_INDEXING_KEY = ${{ secrets.ALGOLIA_TOKEN }}
                   hexo algolia
                   hexo generate
                   # gulp
