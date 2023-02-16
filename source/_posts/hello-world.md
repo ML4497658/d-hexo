@@ -123,7 +123,7 @@ $ node -v
 
 `git init`
 
-然后，修改 .gitignore (若没有就新建)
+然后，修改 博客目录/.gitignore (若没有就新建)
 
 ```
 .DS_Store
@@ -137,3 +137,39 @@ public/
 .idea
 themes/**/.git
 ```
+然后
+
+`git add`
+`git commit -m '迁徙到hexo6代'`
+
+仓库建起来了，✌
+
+## 修改 post 模板
+
+修改 scaffolds/post.md 为
+```
+---
+title: {{ title }}
+date: {{ date }}
+tags: [1, 2]
+top_img:
+cover:
+hidden: false
+---
+
+<!-- <meting-js
+    server="netease"
+    type="song"
+    autoplay="true"
+    id="18126594">
+</meting-js> -->
+```
+## 注入 js
+
+这一次把 js 文件全部放在 博客目录/source/js 下
+
+通过 博客目录/scripts 下新建一个 injector.js 来调用
+
+Fluid 主题作者写的很好
+
+https://hexo.fluid-dev.com/posts/hexo-injector/
