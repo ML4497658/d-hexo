@@ -45,12 +45,16 @@ jobs:
               if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
               run: |
                   npm install hexo-bilibili-bangumi
+                  npm install hexo-wordcount
+                  npm install hexo-algolia
                   npm install --save
 
             - name: 生成静态文件
               run: |
                   hexo clean
                   hexo bangumi -u
+                  export HEXO_ALGOLIA_INDEXING_KEY = ${{ secrets.ALGOLIA_TOKEN }}
+                  hexo algolia
                   hexo generate
                   # gulp
 

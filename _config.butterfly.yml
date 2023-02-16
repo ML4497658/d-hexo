@@ -55,7 +55,7 @@ social:
 
 # Algolia search
 algolia_search:
-    enable: false
+    enable: true
     hits:
         per_page: 6
 
@@ -939,6 +939,8 @@ CDN:
     # Custom format
     # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
     custom_format:
+
+
 
     option:
         # main_css:

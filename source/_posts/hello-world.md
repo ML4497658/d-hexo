@@ -247,3 +247,19 @@ npm install hexo-browsersync --save
  ```
 
  ## Hexo 博客生成永久链接
+
+ ## Hexo algolia 搜索
+
+ npm install hexo-algolia -save
+
+ 当配置完成，在站点根目录下执行一下命令来更新上传 Index。请注意观察命令的输出。
+
+PLAINTEXT
+$ export HEXO_ALGOLIA_INDEXING_KEY=Search-Only API key # 使用 Git Bash
+### set HEXO_ALGOLIA_INDEXING_KEY=Search-Only API key # 使用 Windows CMD 命令行
+这个插件要把 algolia 的 api 设置为环境变量调用
+所以我就加到了 Github 仓库的 secrets 里面了
+$ hexo clean
+$ hexo algolia
+
+##
