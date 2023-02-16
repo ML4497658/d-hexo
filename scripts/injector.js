@@ -57,9 +57,19 @@ hexo.extend.injector.register(
 hexo.extend.injector.register(
     "body_end",
     `
-  <div id="aplayer"></div>
-  <script defer src="/js/aplayer.js"></script>
+  <meting-js
+    server="netease"
+    type="playlist"
+    order="random"
+    id="7290416033"
+    fixed=true
+    list-folded = "true"
+    >
+    </meting-js>
   `,
     "default"
 );
 
+
+
+//<script defer src="/js/aplayer.js"></script>
