@@ -1,8 +1,23 @@
+// 页脚半透明
+
+hexo.extend.injector.register(
+    "head_end",
+    '<link rel="stylesheet" href="/css/footerTransp.css?1">',
+    "default"
+);
+
 // 动态标签页标题
 
 hexo.extend.injector.register(
     "body_end",
     '<script src="/js/dynamicTabTitle.js"></script>',
+    "default"
+);
+// runtime 显示
+
+hexo.extend.injector.register(
+    "body_end",
+    '<script src="/js/runtimeShow.js"></script>',
     "default"
 );
 
@@ -42,17 +57,9 @@ hexo.extend.injector.register(
 hexo.extend.injector.register(
     "body_end",
     `
-    <div id="aplayer">    
-    <meting-js
-	server="netease"
-	type="playlist"
-	id="690702378">
-    </meting-js>
-    </div>
-
-
+  <div id="aplayer"></div>
+  <script defer src="/js/aplayer.js"></script>
   `,
     "default"
 );
-//   <div id="aplayer"></div>
-//   <script defer src="/js/aplayer.js"></script>
+
