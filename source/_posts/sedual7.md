@@ -7,6 +7,8 @@ top_img: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva8.jpg'
 cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva8.jpg'
 abbrlink: a46a2189
 date: 2022-09-07 15:15:58
+categories: 小说
+
 ---
 Sub 伸出手，“走吧，去那个蜻蜓自由飞翔的地方。”
 

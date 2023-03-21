@@ -7,6 +7,8 @@ top_img: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva4.jpg'
 cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva4.jpg'
 abbrlink: 5c4efa28
 date: 2022-09-07 15:16:05
+categories: 小说
+
 ---
 
 

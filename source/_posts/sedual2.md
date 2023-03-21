@@ -7,6 +7,8 @@ top_img: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva7.jpg'
 cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva7.jpg'
 abbrlink: 4c2694ea
 date: 2022-09-07 15:15:26
+categories: 小说
+
 ---
 
 	手中，幼蝉在指尖骚动，无声地抗议着泡在水汽里的夏夜，软鳌微钳在那滑如凝脂的肌肤。

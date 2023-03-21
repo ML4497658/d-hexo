@@ -7,6 +7,8 @@ top_img: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva11.jpg'
 cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva11.jpg'
 abbrlink: edba7ec3
 date: 2022-09-07 15:16:42
+categories: 小说
+
 ---
 世界尽头，唱响爱你之歌
 ----

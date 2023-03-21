@@ -7,6 +7,8 @@ top_img: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva19.jpg'
 cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva19.jpg'
 abbrlink: 105356c4
 date: 2022-09-07 15:16:23
+categories: 小说
+
 ---
 REBORN
 ---

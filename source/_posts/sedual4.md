@@ -7,6 +7,7 @@ top_img: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva13.jpg'
 cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva13.jpg'
 abbrlink: 614b8add
 date: 2022-09-07 15:15:40
+categories: 小说
 ---
 春日归来似乎已经很多时候了，然而却总像不情愿地娇羞似的，似乎并不打算完全地显露面孔。铺在草地上的片片紫色花朵也算柔和喜人，可是抵消不了晚上忽然袭来的冷冽的风。
 

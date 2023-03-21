@@ -4,6 +4,7 @@ tags: Hexo
 hidden: true
 abbrlink: 5f538bc8
 date: 2022-09-17 16:34:23
+categories: 搭建博客
 ---
 
 # 连接到互联网

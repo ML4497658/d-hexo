@@ -7,6 +7,8 @@ top_img: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva14.jpg'
 cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva14.jpg'
 abbrlink: 870747e
 date: 2022-09-07 15:15:47
+categories: 小说
+
 ---
 虽然少女玦一直生活在伊甸园，但伊甸园并不是全部的世界。
 

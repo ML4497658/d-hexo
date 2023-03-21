@@ -7,6 +7,8 @@ top_img: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/Shinji.jpg'
 cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/Shinji.jpg'
 abbrlink: 664ef4eb
 date: 2023-02-12 16:06:23
+categories: 闲聊
+  
 ---
 <meting-js
     server="netease"

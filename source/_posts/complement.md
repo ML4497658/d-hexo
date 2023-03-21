@@ -5,6 +5,7 @@ cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva (27).jpg'
 abbrlink: '96660855'
 date: 2022-09-22 09:49:22
 tags:
+categories: 技术
 ---
 “反码加一”只是补码所具有的一个性质，不能被定义成补码。负数的补码，是能够和其相反数相加通过溢出从而使计算机内计算结果变为0的二进制码。这是补码设计的初衷，具体目标就是让1+（-1）=0，这利用原码是无法得到的：
 ---

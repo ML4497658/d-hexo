@@ -7,6 +7,8 @@ top_img: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva12.jpg'
 cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva12.jpg'
 abbrlink: a95aa706
 date: 2022-09-07 15:15:34
+categories: 小说
+
 ---
 >耶和华于是说：我必要赐福于你，你也必要只信于我。
 

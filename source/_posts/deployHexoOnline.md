@@ -8,6 +8,8 @@ cover: 'https://raw.githubusercontent.com/Jenway/J-figure-Bed/main/eva19.jpg'
 hidden: false
 abbrlink: 74154e8b
 date: 2023-02-15 21:28:43
+categories: 搭建博客
+
 ---
 
  <meting-js

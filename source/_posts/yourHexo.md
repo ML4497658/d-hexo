@@ -4,6 +4,8 @@ tags: Hexo
 cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva4.jpg'
 abbrlink: b2194d8c
 date: 2022-09-17 14:03:40
+categories: 搭建博客
+
 ---
 
 #  想做个人博客？

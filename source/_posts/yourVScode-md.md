@@ -6,6 +6,8 @@ hidden: false
 abbrlink: a7cddfc3
 date: 2022-09-21 10:41:58
 tags:
+categories: 技术
+
 ---
 Code editing.
 Redefined.

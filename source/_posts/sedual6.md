@@ -7,6 +7,8 @@ top_img: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva6.jpg'
 cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva6.jpg'
 abbrlink: e7315b92
 date: 2022-09-07 15:15:52
+categories: 小说
+
 ---
 “绝对不可能！”
 

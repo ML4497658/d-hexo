@@ -5,6 +5,8 @@ top_img: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva.jpg'
 cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva.jpg'
 abbrlink: c17bdd77
 date: 2022-09-07 09:59:23
+categories: 工具推荐
+
 ---
 
 # is Listary an efficient tool？
