@@ -2,11 +2,12 @@
 title: 人生如逆旅
 tags:
   - 感受
-top_img: https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/kita.jpg
-cover: https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/kita.jpg
+top_img: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/kita.jpg'
+cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/kita.jpg'
 hidden: false
-date: 2023-03-21 15:54:02
 catagories: 闲聊
+abbrlink: 1683b2f1
+date: 2023-03-21 15:54:02
 ---
 
 <!-- <meting-js

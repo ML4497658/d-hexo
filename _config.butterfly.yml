@@ -14,6 +14,7 @@ menu:
     友链: /link/ || fa fa-link
     日志: /timeline/ || fa fa-bell
     我？: /about/ || fa fa-id-card
+    CS50: /custom/homepage/index.html
 
 nav:
     logo: # image
