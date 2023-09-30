@@ -19,9 +19,17 @@ categories: 工具推荐
 
 During daily usage of our PC , using mouse sometimes prevent right hands from operating the keyboard , and for *this reason*, *this way* of operating PC is of low efficiency.
 
-## **How do we define an** ***efficient tool*** **?**
+## **Setup**
 
-## **Setup & settings**
+Enter the website , [download and install ( click me o(=•ェ•=)m )](https://www.listary.com/) 
 
-Enter the website and [download install application](https://www.listary.com/) that fits your operating system.
 ![Setup](https://github.com/Jenway/J-figure-Bed/blob/main/Listary01.png?raw=true)
+
+Or if you prefer scoop
+
+``` bash
+scoop bucket add extras
+scoop install extras/listary
+```
+
+## Follow the guide

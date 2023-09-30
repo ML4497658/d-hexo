@@ -6,7 +6,7 @@ top_img: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva (29).jpg'
 cover: 'https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva (29).jpg'
 hidden: false
 catagories: 闲聊
-abbrlink:
+abbrlink: b8c13c86
 date: 2023-06-22 19:43:02
 ---
 
