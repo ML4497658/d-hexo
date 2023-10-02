@@ -44,19 +44,7 @@ jobs:
             - name: 安装依赖
               if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
               run: |
-                  npm install hexo-bilibili-bangumi
-                  npm install hexo-wordcount
-                  npm install hexo-algolia
-                  npm install --save
-
-            - name: 安装 python
-              uses: actions/setup-python@v2
-              with:
-                  python-version: 3.8
-
-            - name: 随机封面
-              run: |
-                  python3 ./source/script.py
+                  npm install
 
             - name: 生成静态文件
               run: |
