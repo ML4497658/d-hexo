@@ -4,7 +4,6 @@ on:
     push:
         branches:
             - master
-            #2020年10月后github新建仓库默认分支改为main，注意更改
     release:
         types:
             - published
@@ -17,11 +16,12 @@ jobs:
               uses: actions/checkout@v2
               with:
                   ref: master
+                  submodules: recursive
 
             - name: 安装 Node
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v3
               with:
-                  node-version: "18.x"
+                  node-version: latest
 
             - name: 安装 Hexo
               run: |
@@ -48,6 +48,15 @@ jobs:
                   npm install hexo-wordcount
                   npm install hexo-algolia
                   npm install --save
+
+            - name: 安装 python
+              uses: actions/setup-python@v2
+              with:
+                  python-version: 3.8
+
+            - name: 随机封面
+              run: |
+                  python3 ./source/script.py
 
             - name: 生成静态文件
               run: |

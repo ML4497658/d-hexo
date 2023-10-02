@@ -22,11 +22,13 @@ hexo.extend.injector.register(
 );
 
 // 文章是否过时
+/*
 hexo.extend.injector.register(
     "body_end",
     '<script src="/js/isItOutOfTime.js"></script>',
     "default"
 );
+*/
 
 // metingjs
 
@@ -46,9 +48,7 @@ hexo.extend.injector.register(
 
 hexo.extend.injector.register(
     "body_end",
-    `
-    <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
-    `,
+    `<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>`,
     "default"
 );
 
