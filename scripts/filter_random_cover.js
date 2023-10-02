@@ -20,7 +20,7 @@ hexo.extend.filter.register('before_post_render', function (data) {
         // data.cover = randomCover(coverList)
         let source = data.source
         var fs = require('fs')
-        let json = fs.readFileSync('img.json', 'utf-8')
+        let json = fs.readFileSync('source/img.json', 'utf-8')
         let imgList = JSON.parse(json)
         data.cover = imgList[source]
         return data
