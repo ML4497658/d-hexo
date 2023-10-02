@@ -88,13 +88,16 @@ cover:
   index_enable: true
   aside_enable: true
   archives_enable: true
+  random_cover: true
   # the position of cover in home page (封面顯示的位置)
   # left/right/both
   position: both
-  # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
+  # suffix 0 无 1 ? 2 &
+  suffix: 1
   default_cover:
-    - https://cdn.staticaly.com/gh/Jenway/J-figure-Bed/main/eva14.jpg
+    # - https://fastly.jsdelivr.net/gh/Jenway/J-figure-Bed@main/img.php
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -798,7 +801,7 @@ preloader:
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
-  source: 1
+  source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
 
