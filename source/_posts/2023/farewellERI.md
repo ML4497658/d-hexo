@@ -3,13 +3,12 @@ title: 再见绘梨
 tags:
   - Manga
   - 感受
-top_img: 'https://cdn.statically.io/gh/Jenway/J-figure-Bed/main/cover/ERI.jpg'
-cover: 'https://cdn.statically.io/gh/Jenway/J-figure-Bed/main/cover/ERI2.jpg'
+top_img: 'https://cdn.statically.io/gh/Jenway/J-figure-Bed/main/post/2023/ERI/ERI2.jpg'
+cover: 'https://cdn.statically.io/gh/Jenway/J-figure-Bed/main/post/2023/ERI/ERI.jpg'
 hidden: false
 abbrlink: d5ba610d
 date: 2023-02-13 18:36:05
 categories: 读过与看过
-
 ---
 
 <meting-js

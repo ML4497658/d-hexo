@@ -13,7 +13,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: 检查分支
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4
               with:
                   ref: master
                   submodules: recursive
@@ -45,6 +45,10 @@ jobs:
               if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
               run: |
                   npm install
+            
+            - name: 下载图床link txt
+              run: |
+                  wget https://raw.githubusercontent.com/Jenway/J-figure-Bed/main/img.txt -O source/_data/img.txt
 
             - name: 生成静态文件
               run: |
@@ -52,6 +56,7 @@ jobs:
                   hexo bangumi -u
                   export HEXO_ALGOLIA_INDEXING_KEY=${{ secrets.ALGOLIA_TOKEN }}
                   hexo algolia
+                  hexo random_list
                   hexo generate
                   # gulp
 

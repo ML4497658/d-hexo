@@ -50,7 +50,7 @@ favicon: /img/favicon.ico
 
 # Avatar (頭像)
 avatar:
-  img: /img/avater.jpg
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner image
