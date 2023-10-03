@@ -20,7 +20,7 @@ hexo.extend.console.register('random_list', 'Generate img.json for random cover'
     const imgFilePath = args.i || args.img || 'source/_data/img.txt';
     const mdDirPath = args.m || args.md || 'source/_posts';
     const outputFilePath = args.o || args.output || 'source/_data/random_cover.json';
-    generateCovers(imgFileLinks, imgFilePath, mdDirPath, outputFilePath);
+    generateCovers(imgFilePath, mdDirPath, outputFilePath);
 });
 
 function getImgList(filePath) {
@@ -80,7 +80,7 @@ function getMdList(dirPath) {
     searchForMdFiles(dirPath);
     return mdList;
 }
-function generateCovers(imgFileLinks, imgFilePath, mdDirPath, outputFilePath) {
+function generateCovers(imgFilePath, mdDirPath, outputFilePath) {
     const {writeFileSync} = fs;
     const imgList = getImgList(imgFilePath);
     const mdList = getMdList(mdDirPath);
