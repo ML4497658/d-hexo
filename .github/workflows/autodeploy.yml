@@ -48,7 +48,7 @@ jobs:
             
             - name: 下载图床link txt
               run: |
-                  wget https://raw.githubusercontent.com/Jenway/J-figure-Bed/main/img.txt -O source/_data/img.txt
+                  wget https://raw.githubusercontent.com/Jenway/J-figure-Bed/master/img.txt -O source/_data/img.txt
 
             - name: 生成静态文件
               run: |
