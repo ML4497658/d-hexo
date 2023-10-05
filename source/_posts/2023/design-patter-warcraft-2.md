@@ -1,13 +1,11 @@
 ---
 title: 设计模式与 Warcraft 其二
 tags:
-  - 1
-  - 2
+  - 设计模式
 hidden: true
 abbrlink: b307ab4
 date: 2023-04-29 22:37:11
-catagories:
-categories:
+catagories: 技术分享
 ---
 
 <!-- <meting-js
@@ -16,6 +14,10 @@ categories:
     autoplay="true"
     id="18126594">
 </meting-js> -->
+
+须知: 这并不是一篇教程，而是一篇笔记
+> 如果你想学习设计模式，建议直接阅读比较好的设计模式教程，比如 [设计模式|菜鸟教程](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)。
+___
 
 好的，上一篇文章我们讲了创建型模式：单例模式、工厂模式、抽象工厂模式、建造者模式、原型模式。这一篇我们来讲讲结构型模式。
 
