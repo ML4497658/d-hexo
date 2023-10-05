@@ -26,6 +26,7 @@ Yet another Hexo blog without any technique
 - [Github Pages](https://jenway.github.io)
 - [Netlify 托管](https://jenway.netlify.app)
 - [Vercel 托管](https://jenway.vercel.app)
+- [Cloudflare Pages 托管](https://jenway.pages.dev)
 
 很抱歉穷学生实在没有合适的国内托管能用，好在这个博客也没什么人看
 
