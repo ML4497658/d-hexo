@@ -1,5 +1,5 @@
 ---
-title: CS50
+title: CS-cource
 tags:
   - 1
   - 2
