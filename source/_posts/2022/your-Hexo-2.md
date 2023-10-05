@@ -112,5 +112,3 @@ deploy:
 - [jsdelivr](https://www.jsdelivr.com/)，通过 `https:/fastly.jsdelivr.net/gh/user/repo@version/file` 的方式引用
 - [githack](https://raw.githack.com/)，通过 `https://rawcdn.githack.com/user/repo/tag/file` 的方式引用
 - [staticaly](https://statically.io/)，通过 `https://cdn.statically.io/gh/:user/:repo/:tag/:file` 的方式引用
-- [cloudflare](https://www.cloudflare.com/)，通过 ` ` 的方式引用
-- [qiniu](https://www.qiniu.com/)，通过 ` ` 的方式引用
