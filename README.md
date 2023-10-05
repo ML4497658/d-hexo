@@ -42,14 +42,14 @@ Yet another Hexo blog without any technique
 这个博客实在没啥可参考的地方，不过如果你确实感兴趣，以下几个地方可以参考：
 
 1. 我的配置文件
-    - _config.yml
-    - _config.hexo-theme-butterfly.yml
-2. 我安装的插件，请直接参考 `package.json`
+    - [_config.yml](_config.yml)
+    - [_config.hexo-theme-butterfly.yml](_config.hexo-theme-butterfly.yml)
+2. 我安装的插件，请直接参考 [package.json](package.json)
 3. Github Action 配置文件
-    - .github/workflows/autodeploy.yml
+    - [autodeploy.yml](.github/workflows/autodeploy.yml)
 4. 没啥技术含量的 js 脚本 (包含了一些我自己写的，也有一些我从网上找的)
-    - scripts/*.js 主要有关 Hexo filter 、injector 有关的 js
-    - source/js/*.js 主要是一些 injector 注入的 js
+    - [scripts/](scripts/)*.js 主要有关 Hexo filter 、injector 有关的 js
+    - [source/js/](source/js/)*.js 主要是一些 injector 注入的 js
 
 ## Support
 
