@@ -1,13 +1,11 @@
 ---
 title: 设计模式与 Warcraft 其一
 tags:
-  - 1
-  - 2
+  - 设计模式
 hidden: true
 abbrlink: b268e5b9
 date: 2023-04-28 22:14:35
-catagories:
-categories:
+catagories: 技术分享
 ---
 
 <!-- <meting-js
@@ -16,6 +14,11 @@ categories:
     autoplay="true"
     id="18126594">
 </meting-js> -->
+
+须知: 这并不是一篇教程，而是一篇笔记
+> 如果你想学习设计模式，建议直接阅读比较好的设计模式教程，比如 [设计模式|菜鸟教程](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)。
+
+___
 
 在做高级程序设计大作业的时候，ChatGPT 告诉了我工厂模式，我觉得很有意思，于是就去查了一下，了解到了设计模式
 
