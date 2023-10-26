@@ -21,7 +21,7 @@ jobs:
             - name: 安装 Node
               uses: actions/setup-node@v3
               with:
-                  node-version: latest
+                  node-version: lts/*
 
             - name: 安装 Hexo
               run: |
