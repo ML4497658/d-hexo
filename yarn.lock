@@ -778,7 +778,7 @@ hexo-bilibili-bangumi@^1.8.3:
     progress "^2.0.3"
     tunnel "^0.0.6"
 
-hexo-cli@^4.3.0, hexo-cli@^4.3.1:
+hexo-cli@^4.3.0:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/hexo-cli/-/hexo-cli-4.3.1.tgz#eb40e0ab2479ea089a9913eb0b1b5d3db58133a3"
   integrity sha512-nYe7yJhXT7MwlDEpIAjneMfz0wnWTdIhRv+cVW2OPTw8JtG2X+8Y/sYhPDvQz/ZqjFRZ4qgiKFXN5orFJ/u1vg==
@@ -936,11 +936,6 @@ hexo-server@^3.0.0:
     open "^8.0.9"
     picocolors "^1.0.0"
     serve-static "^1.14.1"
-
-hexo-theme-landscape@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/hexo-theme-landscape/-/hexo-theme-landscape-1.0.0.tgz#43a549ebb2bea73196200ee4397feb764131a481"
-  integrity sha512-bWQJWMqQI78wWiJPQZq5pJBH20TM442ShCaHGRetuEgMraxH0OKxB3NTupJzNEkzEk8DV2yrdizkXdKN6i501A==
 
 hexo-util@^2.0.0, hexo-util@^2.5.0, hexo-util@^2.7.0:
   version "2.7.0"
@@ -1238,7 +1233,7 @@ markdown-it-deflist@^2.0.3:
   resolved "https://registry.yarnpkg.com/markdown-it-deflist/-/markdown-it-deflist-2.1.0.tgz#50d7a56b9544cd81252f7623bd785e28a8dcef5c"
   integrity sha512-3OuqoRUlSxJiuQYu0cWTLHNhhq2xtoSFqsZK8plANg91+RJQU1ziQ6lA2LzmFAEes18uPBsHZpcX6We5l76Nzg==
 
-markdown-it-emoji@^2.0.0, markdown-it-emoji@^2.0.2:
+markdown-it-emoji@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/markdown-it-emoji/-/markdown-it-emoji-2.0.2.tgz#cd42421c2fda1537d9cc12b9923f5c8aeb9029c8"
   integrity sha512-zLftSaNrKuYl0kR5zm4gxXjHaOI3FAOEaloKmRA5hijmJZvSjmxcokOLlzycb/HXlUFWzXqpIEoyEMCE4i9MvQ==
@@ -1267,11 +1262,6 @@ markdown-it-sup@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it-sup/-/markdown-it-sup-1.0.0.tgz#cb9c9ff91a5255ac08f3fd3d63286e15df0a1fc3"
   integrity sha512-E32m0nV9iyhRR7CrhnzL5msqic7rL1juWre6TQNxsnApg7Uf+F97JOKxUijg5YwXz86lZ0mqfOnutoryyNdntQ==
-
-markdown-it-task-lists@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/markdown-it-task-lists/-/markdown-it-task-lists-2.1.1.tgz#f68f4d2ac2bad5a2c373ba93081a1a6848417088"
-  integrity sha512-TxFAc76Jnhb2OUu+n3yz9RMu4CwGfaT788br6HhEDlvWfdeJcLUsxk1Hgw2yJio0OXsxv7pyIPmvECY7bMbluA==
 
 markdown-it@^13.0.1:
   version "13.0.2"
