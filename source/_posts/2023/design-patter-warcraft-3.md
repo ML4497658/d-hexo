@@ -1,5 +1,5 @@
 ---
-title: design-patter-warcraft-3
+title: 设计模式与 Warcraft 其三
 tags:
   - 设计模式
 hidden: false
