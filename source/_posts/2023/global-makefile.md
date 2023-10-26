@@ -1,5 +1,5 @@
 ---
-title: "make hello" -- 全局 Makefile 模式匹配
+title: make hello! 全局 Makefile 模式匹配
 tags:
   - make
   - makefile
