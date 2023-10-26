@@ -6,6 +6,7 @@ public/
 Thumbs.db
 db.json
 package-lock.json
+source/_data/
 *.log
 **/.obsidian/
 **/.vscode/
