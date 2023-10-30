@@ -21,7 +21,7 @@ jobs:
             - name: 安装 Node && yarn
               uses: actions/setup-node@v3
               with:
-                  node-version: lts 
+                  node-version: latest 
             - run: npm install -g yarn
 
             - name: 安装依赖
