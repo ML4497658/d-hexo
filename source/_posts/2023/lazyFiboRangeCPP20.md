@@ -1,14 +1,15 @@
 ---
-title: CPP20/Ranges: 斐波那契数列的惰性生成
+title: CPP20 Ranges与斐波那契数列的惰性生成
 tags:
-  - C++
+  - cpp
   - C++20
   - C++Ranges
-top_img: 
-cover: 
 hidden: false
-date: 2023-12-24 15:32:59
 catagories: 技术
+abbrlink: 3535f2b5
+date: 2023-12-24 15:32:59
+top_img:
+cover:
 ---
 
 <meting-js
