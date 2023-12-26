@@ -2,8 +2,8 @@
 title: 人生如逆旅
 tags:
   - 感受
-top_img: 'https://cdn.statically.io/gh/Jenway/J-figure-Bed/main/post/2023/life/kita.jpg'
-cover: 'https://cdn.statically.io/gh/Jenway/J-figure-Bed/main/post/2023/life/kita.jpg'
+top_img: 'https://fastly.jsdelivr.net/gh/jenway/J-figure-bed@master/post/2023/life/kita.jpg'
+cover: 'https://fastly.jsdelivr.net/gh/jenway/J-figure-bed@master/post/2023/life/kita.jpg'
 hidden: false
 catagories: 闲聊
 abbrlink: 1683b2f1
