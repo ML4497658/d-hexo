@@ -3,8 +3,8 @@ title: 再见绘梨
 tags:
   - Manga
   - 感受
-top_img: 'https://cdn.statically.io/gh/Jenway/J-figure-Bed/main/post/2023/ERI/ERI2.jpg'
-cover: 'https://cdn.statically.io/gh/Jenway/J-figure-Bed/main/post/2023/ERI/ERI.jpg'
+top_img: 'https://fastly.jsdelivr.net/gh/jenway/J-figure-bed@master/post/2023/ERI/ERI2.jpg'
+cover: 'https://fastly.jsdelivr.net/gh/jenway/J-figure-bed@master/post/2023/ERI/ERI.jpg'
 hidden: false
 abbrlink: d5ba610d
 date: 2023-02-13 18:36:05
@@ -16,9 +16,7 @@ categories: 读过与看过
     type="song"
     autoplay="false"
     id="30148143">
-</meting-js> 
-
-
+</meting-js>
 
 下午刚考完英语，心情不怎好，出来振声苑的时候看一看手机，快递到了，是买的书，一本是藤本树的 `再见绘梨`，另一本是置身事内。
 
