@@ -2,11 +2,12 @@
 title: 你的大学，并不是你的大学
 tags:
   - 感受
-top_img: 
-cover: 
 hidden: false
+catagories: 闲聊
+abbrlink: 7b16a0b
 date: 2024-03-16 18:52:11
-catagories: 闲聊 
+top_img:
+cover:
 ---
 
 > Your university is not `your university`

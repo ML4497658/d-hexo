@@ -3,10 +3,11 @@ title: 很不专业的 GUI 框架乱谈
 tags:
   - GUI
 hidden: true
-abbrlink: 
-date: 2023-12-28 22:35:53
+abbrlink: '42862714'
 catagories: 伪计算机史学家
+date: 2023-12-28 22:35:53
 ---
+
 <meting-js
     server="netease"
     type="song"
@@ -294,7 +295,7 @@ UWP 已经死掉了，silverlight 原先是为了对标 Flash，随着 Flash 的
 
 #### WINUI3 Blazor MAUI
 
-微软目前力推的框架，MAUI 致力于
+微软目前力推的框架，MAUI 致力于大前端跨平台，一个全家在移动
 
 > [“我做了好多年 Silverlight 开发，买了5、6部 Windows Phone 手机，写了几十篇 UWP 文章，根据我丰富的经验，我可以肯定 WinUI 是有未来的。”](https://zhuanlan.zhihu.com/p/147499467)
 

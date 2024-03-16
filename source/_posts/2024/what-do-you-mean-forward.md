@@ -2,11 +2,12 @@
 title: 年终篇下，梦醒了该去哪里
 tags:
   - 感受
-top_img: 
-cover: 
 hidden: false
+catagories: 闲聊
+abbrlink: 8cc94882
 date: 2024-01-19 23:14:40
-catagories: 闲聊 
+top_img:
+cover:
 ---
 
 > What do you mean by `forward` ?
