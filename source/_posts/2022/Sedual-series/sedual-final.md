@@ -16,7 +16,7 @@ categories: 小说
 <meting-js
     server="netease"
     type="song"
-    autoplay="true"
+    autoplay="false"
     id="18126594">
 </meting-js>
 

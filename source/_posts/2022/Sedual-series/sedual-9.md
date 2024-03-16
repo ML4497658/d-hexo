@@ -16,7 +16,7 @@ REBORN
 <meting-js
     server="netease"
     type="song"
-    autoplay="true"
+    autoplay="false"
     id="25704085">  
 </meting-js>
 

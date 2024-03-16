@@ -18,7 +18,7 @@ menu:
     Bangumi: /bangumi/ || fas fa-bilibili
     CS50: /custom/homepage/index.html || fas fa-graduation-cap
   Link: /link/ || fas fa-link
-  TimeLine: /timeline/ || fas fa-hourglass-half
+  # TimeLine: /timeline/ || fas fa-hourglass-half
   About: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)

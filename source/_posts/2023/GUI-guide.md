@@ -3,7 +3,9 @@ title: 常见的 (我知道的) GUI 开发框架
 tags:
   - GUI
 abbrlink: f4100da3
+hidden: false
 date: 2023-01-28 20:21:53
+catagories: 伪计算机史学家
 ---
 <meting-js
     server="netease"
