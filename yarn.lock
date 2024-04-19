@@ -950,10 +950,10 @@ hexo-generator-tag@^2.0.0:
   dependencies:
     hexo-pagination "3.0.0"
 
-hexo-hide-posts@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.npmmirror.com/hexo-hide-posts/-/hexo-hide-posts-0.4.0.tgz#24184c2b1abb09a1fa28f8e12449c798257cbe7b"
-  integrity sha512-qSdCoNG2FRxX/7TKJHPINOK/KbfaqqMgT1LHNAYPN1P0MgL187b0A6sCduevoIMlN0i/xK0yNlS/UDRQwVdZGw==
+hexo-hide-posts@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/hexo-hide-posts/-/hexo-hide-posts-0.4.3.tgz#5b8147f88b5225c06fcc77d7bd861f37ed55e999"
+  integrity sha512-5VLzaX6ntJ0uJy56X5tgbII6oucBoUS5gCzm37ozXibMT8lBmRgbuzzayKNuBL+oQpyAa+vEsLyxlSunyaRs7g==
   dependencies:
     chalk "^4"
 
