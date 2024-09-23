@@ -13,7 +13,7 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.jenway.live
+url: https://jenway.tech
 # permalink: :year/:month/:day/:title/
 permalink: posts/:abbrlink.html ## 此处可以自己设置
 permalink_defaults:
@@ -31,6 +31,8 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
     - "custom/**"
+    - "_posts/README.markdown"
+    - "_posts/blog/**"
     - "image/**"
 
 # Writing
