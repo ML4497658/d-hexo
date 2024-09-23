@@ -12,6 +12,11 @@ jobs:
     deploy:
         runs-on: ubuntu-latest
         steps:
+            - name: 添加 SSH 私钥
+              uses: webfactory/ssh-agent@v0.5.3
+              with:
+                  ssh-private-key: ${{ secrets.CONTENT_TOKEN }}
+                  
             - name: 检查分支
               uses: actions/checkout@v4
               with:
