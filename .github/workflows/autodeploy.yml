@@ -14,10 +14,10 @@ jobs:
         steps:
             - name: 检查分支
               uses: actions/checkout@v4
-              ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
               with:
                   ref: master
                   submodules: recursive
+                  ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
             - name: 安装 Node && yarn
               uses: actions/setup-node@v3
