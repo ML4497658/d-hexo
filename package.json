@@ -1,5 +1,5 @@
 {
-  "name": "Jenway-blog",
+  "name": "jenway-blog",
   "version": "0.0.2",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "7.0.0"
+    "version": "7.3.0"
   },
   "dependencies": {
     "aplayer": "^1.10.1",
