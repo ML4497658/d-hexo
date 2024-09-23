@@ -17,7 +17,7 @@ jobs:
               with:
                   ref: master
                   submodules: recursive
-                  token: ${{ secrets.SSH_PRIVATE_KEY }}
+                  token: ${{ secrets.CONTENT_TOKEN }}
 
             - name: 安装 Node && yarn
               uses: actions/setup-node@v3
