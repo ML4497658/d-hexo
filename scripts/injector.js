@@ -70,6 +70,10 @@ hexo.extend.injector.register(
     "default"
 );
 
+// latex
 
-
-//<script defer src="/js/aplayer.js"></script>
+hexo.extend.injector.register(
+    "head_end",
+    `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"/>`,
+    "default"
+  );
