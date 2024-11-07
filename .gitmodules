@@ -1,6 +1,6 @@
 [submodule "themes/hexo-theme-butterfly"]
 	path = themes/hexo-theme-butterfly
-	url = https://github.com/jerryc127/hexo-theme-butterfly.git
+	url = https://github.com/ML4497658/hexo-butterfly
 [submodule "source/_posts"]
 	path = source/_posts
 	url = https://github.com/ML4497658/d-hexo
